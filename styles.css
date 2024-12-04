@@ -1,0 +1,110 @@
+body {
+    background-color: rgb(119, 106, 231);
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#title {
+    margin-bottom: 5px;
+}
+
+#title, #description {
+    text-align: center;
+    color: rgb(243, 243, 243);
+}
+
+#description {
+    font-style: italic;
+    font-weight: 100;
+}
+
+#survey-form {
+    /* display: flex;
+    flex-direction: column; */
+    background-color: rgb(49, 23, 73);
+    box-sizing: border-box;
+    padding: 1.2rem;
+    color: rgb(243, 243, 243);
+    max-width: 600px;
+    border-radius: 4px;
+}
+
+label {
+    display: block;
+    padding-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+input, select {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+span {
+    font-weight: normal;
+}
+
+.paragraph {
+    font-size: 20px;
+}
+
+div {
+    display: block;
+}
+
+.recommendation {
+    display: flex;
+}
+
+.recommendation label {
+    margin: 0;
+    margin-left: 0.5rem;
+    font-weight: normal;
+}
+
+.recommendation input {
+    width: auto;
+}
+
+#improvement {
+    display: block;
+}
+
+.improvement {
+    display: flex;
+}
+
+#improvement label {
+    margin: 0;
+    margin-left: 0.5rem;
+    font-weight: normal;
+}
+
+#improvement input {
+    width: auto;
+}
+
+textarea {
+    width: 100%;
+    height: 7rem;
+    resize: none;
+}
+
+#submit {
+    background-color: green;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    color: rgb(243, 243, 243);
+}
+
+#submit:hover {
+    background-color: rgb(42, 119, 42);
+}
